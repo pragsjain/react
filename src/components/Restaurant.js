@@ -8,8 +8,8 @@ const Restaurant = ({name,cuisines,cloudinaryImageId,lastMileTravelString,locali
                     cloudinaryImageId}/>
                 <h2>{name}</h2>
                 <h3>{locality}</h3>
-                <h3>{cuisines.join(", ")}</h3>
-                <h4>{lastMileTravelString} minutes</h4>
+                <p>{cuisines.join(", ")}</p>
+                <p>{lastMileTravelString} minutes</p>
             </div>
     )
 }

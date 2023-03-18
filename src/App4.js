@@ -8,24 +8,22 @@
 //structuring app
 //making search work
 
-import ReactDOM, { createRoot } from "react-dom/client";
-import Header from "./components/Header.js";
-import Body from "./components/Body.js";
-import Footer from "./components/Footer.js";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Header from "./components/Header";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 
-
-const AppLayout =() =>{
-    return(
-        <>   <img alt="Food Gram logo"
-        src="../foodgram.jpeg"
-        />
-            <Header/>
-            <Body/>
-            <Footer/>
-        </>
-    )
-
-}
+const AppLayout = () => {
+  return (
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout/>)
+
+root.render(<AppLayout />);

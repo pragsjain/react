@@ -1,9 +1,10 @@
+import LogoImg from "../assets/images/foodgram-logo1.jpg";
 
 export const Logo = ()=>{
     return (
         <div className="logo">
         <img alt="Food Gram logo"
-        src="/foodgram.jpeg"
+        src={LogoImg}
         />
         </div>
     )
